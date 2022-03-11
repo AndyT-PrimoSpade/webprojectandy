@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ItemControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ItemControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.generation.webproject.html">org.generation.webproject</a> &gt; ItemControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.092s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deleteItemService()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findItemService()</td>
+<td class="success">0.077s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">listItemService()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>09:54:51.322 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+09:54:51.333 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+09:54:51.354 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.generation.webproject.ItemControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+09:54:51.366 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.generation.webproject.ItemControllerTest], using SpringBootContextLoader
+09:54:51.370 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.generation.webproject.ItemControllerTest]: class path resource [org/generation/webproject/ItemControllerTest-context.xml] does not exist
+09:54:51.370 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.generation.webproject.ItemControllerTest]: class path resource [org/generation/webproject/ItemControllerTestContext.groovy] does not exist
+09:54:51.371 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.generation.webproject.ItemControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:54:51.371 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.generation.webproject.ItemControllerTest]: ItemControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:54:51.411 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.generation.webproject.ItemControllerTest]
+09:54:51.479 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\PrimoSpade\Java\webproject\build\classes\java\main\org\generation\webproject\WebprojectApplication.class]
+09:54:51.481 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.generation.webproject.WebprojectApplication for test class org.generation.webproject.ItemControllerTest
+09:54:51.591 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [org.generation.webproject.ItemControllerTest]: using defaults.
+09:54:51.592 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+09:54:51.610 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@741b3bc3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ed3b1f5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@63648ee9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@68d6972f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@45be7cd5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7651218e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3185fa6b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d366c9b, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b58ed3c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@24faea88, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3a320ade, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@64beebb7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7813cb11, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@bcec031, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@21005f6c]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.4)
+
+2022-03-11 09:54:51.928  INFO 20912 --- [    Test worker] o.g.webproject.ItemControllerTest        : Starting ItemControllerTest using Java 17.0.2 on DESKTOP-RV4BEJ5 with PID 20912 (started by PrimoSpade in C:\Users\PrimoSpade\Java\webproject)
+2022-03-11 09:54:51.929  INFO 20912 --- [    Test worker] o.g.webproject.ItemControllerTest        : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2022-03-11 09:54:52.638  INFO 20912 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-11 09:54:52.699  INFO 20912 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2022-03-11 09:54:53.323  INFO 20912 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-11 09:54:53.642  INFO 20912 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-11 09:54:53.736  INFO 20912 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-11 09:54:53.813  INFO 20912 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-11 09:54:54.061  INFO 20912 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-11 09:54:54.221  INFO 20912 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-11 09:54:54.851  INFO 20912 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-11 09:54:54.859  INFO 20912 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-11 09:54:55.203  WARN 20912 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 09:54:55.505  INFO 20912 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-03-11 09:54:56.076  INFO 20912 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-11 09:54:56.425  INFO 20912 --- [    Test worker] o.g.webproject.ItemControllerTest        : Started ItemControllerTest in 4.787 seconds (JVM running for 5.963)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.1</a> at Mar 11, 2022, 9:54:57 AM</p>
+</div>
+</div>
+</body>
+</html>
